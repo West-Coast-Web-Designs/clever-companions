@@ -1,7 +1,7 @@
 ---
 title: 'About'
 description: 'Meta description for the page'
-preloadImg: '/assets/images/cabinets2.jpg'
+preloadImg: '/assets/images/clever_companions_banner.jpg'
 permalink: 'about/'
 eleventyNavigation:
     key: About Us
@@ -16,61 +16,74 @@ eleventyNavigation:
 
 {% block body %}
     <!-- ============================================ -->
-    <!--                    LANDING                   -->
+    <!--                 Content Page                 -->
     <!-- ============================================ -->
 
-    <section id="int-hero">
-        <h1 id="home-h">About Us</h1>
-        <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
-        </picture>
-
-    </section>
+    <!-- ============================================ 
+    This Stitch is used for content heavy interior pages
+    that have no design or layout.  Often times these are 
+    content silos where you talk extensively about a topic
+    to educate your visitors and rank on Google for the 
+    content.  These are great for pages that have a TON
+    of content.  Design isn't important here, it's all 
+    about making the content accessible and easy to read.
+    ================================================= -->
 
     <!-- ============================================ -->
-    <!--                 Side By Side                 -->
+    <!--                   Banner                     -->
     <!-- ============================================ -->
 
-    <section id="sbs">
+    <div id="banner-1535">
         <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
-                </div>
-                <a href="/projects" class="cs-button-solid">Our Projects</a>
+            <span class="cs-int-title">About Us</span>
+            <div class="cs-breadcrumbs">
+                <a href="" class="cs-link">Home</a>
+                <a href="" class="cs-link cs-active">About</a>
             </div>
         </div>
+        <!--Background Image-->
+        <picture class="cs-background">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/clever_companions_banner.jpg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/clever_companions_banner.jpg">
+            <img decoding="async" src="/assets/images/clever_companions_banner.jpg" alt="people laughing" width="1280" height="568" aria-hidden="true">
+        </picture>
+        <svg class="cs-mask" xmlns="http://www.w3.org/2000/svg" width="1920" height="136" viewBox="0 0 1920 136" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1920 136V0C1803.21 45.3334 1445.52 136 951 136C456.485 136 111.116 45.3334 0 0V136H951H1920Z" fill="var(--maskBG)"/>
+        </svg>
+    </div>
+
+    <section id="content-page-1535">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <!--Flower-->
+
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/clever_companions_about.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/clever_companions_about.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/clever_companions_about.jpg" alt="kid" width="522" height="540">
+                </picture>
+                <!--Floating Blob-->
+                {# <img class="cs-floater" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/day-care-events-left.svg" alt="graphic" loading="lazy" decoding="async" height="710" width="690"> #}
+                <svg class="cs-floater" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="currentColor" d="M28.3,-43.6C39,-31.2,51.6,-26,55.2,-17.4C58.7,-8.7,53.4,3.4,51.7,19.4C50.1,35.3,52.2,55.1,44.2,65.5C36.2,75.9,18.1,77,2.4,73.6C-13.2,70.2,-26.5,62.4,-40.5,54C-54.5,45.5,-69.4,36.5,-75.8,23.1C-82.2,9.8,-80,-7.7,-73.6,-22.7C-67.1,-37.7,-56.3,-50.2,-43.3,-61.8C-30.3,-73.5,-15.2,-84.4,-3.2,-80C8.8,-75.7,17.6,-56,28.3,-43.6Z" transform="translate(100 100)"/>
+                </svg>
+            </div>
+            <div class="cs-content">
+                <h1 class="cs-title">A Lifelong Passion for Dogs and Shared Journeys in Training</h1>
+                <p>
+                Hey there, I'm Alyssa, the passionate soul behind the scenes at Clever Companions. Growing up surrounded by the boundless love of dogs, I discovered my lifelong calling in understanding and training these incredible companions. From the mischievous pups of my childhood to the seasoned seniors, each wagging tail has left an indelible mark on my heart.</p>
+                <p>
+With a wealth of hands-on experience and a genuine love for forging connections, I've made it my mission to share the joy and expertise I've gained over the years. Clever Companions is more than just a training service; it's a heartfelt endeavor to help fellow dog lovers and their furry friends navigate the path to better understanding and companionship. Together, let's embark on a journey where your dog's unique personality shines, and our shared goal is a harmonious bond that lasts a lifetime.
+                </p>
+            </div>
+        </div>
+        <div class="cs-bubbles" aria-hidden="true"></div>
     </section>
 
-    {% include 'components/cta.html' %}
+    {# {% include 'components/cta.html' %} #}
 
 {% endblock %}
