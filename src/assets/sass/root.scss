@@ -881,28 +881,28 @@
 }
 
 /* Dark Mode */
-@media only screen and (min-width: 64rem) {
-  body.dark-mode {
-    #cs-navigation {
-      background-color: var(--dark);
+// @media only screen and (min-width: 64rem) {
+//   body.dark-mode {
+//     #cs-navigation {
+//       background-color: var(--dark);
 
-      .cs-logo {
-        /* makes it turn white */
-        filter: grayscale(1) brightness(1000%);
-      }
+//       .cs-logo {
+//         /* makes it turn white */
+//         filter: grayscale(1) brightness(1000%);
+//       }
 
-      .cs-li-link {
-        color: var(--bodyTextColorWhite);
-      }
+//       .cs-li-link {
+//         color: var(--bodyTextColorWhite);
+//       }
 
-      .cs-li-link {
-        &:before {
-          background-color: var(--primaryLight);
-        }
-      }
-    }
-  }
-}
+//       .cs-li-link {
+//         &:before {
+//           background-color: var(--primaryLight);
+//         }
+//       }
+//     }
+//   }
+// }
 
 /*-- -------------------------- -->
 <---   Interior Page Header     -->
@@ -1123,15 +1123,15 @@
 }
 
 /* Dark Mode */
-@media only screen and (min-width: 0em) {
-  body.dark-mode {
-    #cta {
-      &:after {
-        display: none;
-      }
-    }
-  }
-}
+// @media only screen and (min-width: 0em) {
+//   body.dark-mode {
+//     #cta {
+//       &:after {
+//         display: none;
+//       }
+//     }
+//   }
+// }
 
 /*-- -------------------------- -->
 <---           Footer           -->
@@ -1384,10 +1384,10 @@
 }
 
 /* Dark Mode */
-@media only screen and (min-width: 0em) {
-  body.dark-mode {
-    #footer {
-      background: #061623;
-    }
-  }
-}
+// @media only screen and (min-width: 0em) {
+//   body.dark-mode {
+//     #footer {
+//       background: #061623;
+//     }
+//   }
+// }
