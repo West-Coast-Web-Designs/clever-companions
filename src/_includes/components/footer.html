@@ -27,9 +27,6 @@
                         <a href="/services">Services</a>
                     </li>
                     <li>
-                        <a href="/testimonials">Reviews</a>
-                    </li>
-                    <li>
                         <a href="/contact">Contact</a>
                     </li>
                 </ul>
@@ -37,16 +34,21 @@
                     <li>
                         <h2>Services</h2>
                     </li>
-                    <li>Service1</li>
-                    <li>Service2</li>
-                    <li>Service4</li>
-                    <li>Service5</li>
+                    <li>
+                        <a>Fear & Reactivity Training</a>
+                    </li>
+                    <li>
+                        <a>Basic Obedience</a>
+                    </li>
+                    <li>
+                        <a>Adventure Walks</a>
+                    </li>
                 </ul>
                 <ul>
                     <li>
                         <h2>Contact</h2>
                     </li>
-                    <li>
+                    {# <li>
                         <a href="/contact">
                             {{client.address.lineOne}}<br>
                             {{client.address.lineTwo}}<br>
@@ -54,15 +56,14 @@
                             {{client.address.state}}
                             {{client.address.zip}}
                         </a>
-                    </li>
+                    </li> #}
                     <li>
                         <a href="tel:{{client.phoneForTel}}">
-                            T:
                             {{client.phoneFormatted}}
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:{{client.email}}">Click to Email</a>
+                        <a href="mailto:{{client.email}}">Email Us</a>
                     </li>
                 </ul>
             </div>
@@ -70,8 +71,8 @@
     </div>
 
     <div class="credit">
-        <span>Designed and Hand Coded by</span>
-        <a href="/" target="_blank" rel="noopener">Your Company Name</a>
+        <span>Designed and Hand Coded by West Coast Web Designs</span>
+        {# <a href="/" target="_blank" rel="noopener">West Coast Web Designs</a> #}
         <span class="copyright">
             Copyright {% year %} - Present</span>
     </div>
