@@ -960,10 +960,17 @@
     margin-bottom: 3.125rem;
   }
   #footer .left-section .logo {
-    color: #1c1c1c;
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-decoration: none;
+    text-align: center;
+    width: auto;
+    height: 2em;
+    margin: auto;
+    margin-bottom: 1.875em;
+    display: inline-block;
+  }
+  #footer .left-section .logo img {
+    width: auto;
+    height: 100%;
+    display: block;
   }
   #footer .left-section p {
     font-size: 0.875rem;
