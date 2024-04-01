@@ -1,0 +1,138 @@
+---
+title: 'Services'
+description: 'Our Services at Clever Companions Training'
+preloadImg: '/assets/images/clever_companions_banner.webp'
+permalink: 'services/'
+eleventyNavigation:
+    key: Services
+    order: 300
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/about.css">
+{% endblock %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                 Content Page                 -->
+    <!-- ============================================ -->
+
+    <!-- ============================================ 
+    This Stitch is used for content heavy interior pages
+    that have no design or layout.  Often times these are 
+    content silos where you talk extensively about a topic
+    to educate your visitors and rank on Google for the 
+    content.  These are great for pages that have a TON
+    of content.  Design isn't important here, it's all 
+    about making the content accessible and easy to read.
+    ================================================= -->
+
+    <!-- ============================================ -->
+    <!--                   Banner                     -->
+    <!-- ============================================ -->
+
+    <div id="banner-1535">
+        <div class="cs-container">
+            <span class="cs-int-title">Services</span>
+            <div class="cs-breadcrumbs">
+                <a href="/" class="cs-link">Home</a>
+                <a href="/services" class="cs-link cs-active">Services</a>
+            </div>
+        </div>
+        <!--Background Image-->
+        <picture class="cs-background">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/clever_companions_banner.webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/clever_companions_banner.webp">
+            <img decoding="async" src="/assets/images/clever_companions_banner.webp" alt="dogs playing" width="1280" height="568" aria-hidden="true">
+        </picture>
+        <svg class="cs-mask" xmlns="http://www.w3.org/2000/svg" width="1920" height="136" viewBox="0 0 1920 136" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1920 136V0C1803.21 45.3334 1445.52 136 951 136C456.485 136 111.116 45.3334 0 0V136H951H1920Z" fill="var(--maskBG)"/>
+        </svg>
+    </div>
+
+    <section id="content-page-1535">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/clever_companions_fear_reactivity.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/clever_companions_fear_reactivity.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/clever_companions_fear_reactivity.jpg" alt="Fear & Reactivity Training" width="522" height="540">
+                </picture>
+                <!--Floating Blob-->
+                <svg class="cs-floater" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="currentColor" d="M28.3,-43.6C39,-31.2,51.6,-26,55.2,-17.4C58.7,-8.7,53.4,3.4,51.7,19.4C50.1,35.3,52.2,55.1,44.2,65.5C36.2,75.9,18.1,77,2.4,73.6C-13.2,70.2,-26.5,62.4,-40.5,54C-54.5,45.5,-69.4,36.5,-75.8,23.1C-82.2,9.8,-80,-7.7,-73.6,-22.7C-67.1,-37.7,-56.3,-50.2,-43.3,-61.8C-30.3,-73.5,-15.2,-84.4,-3.2,-80C8.8,-75.7,17.6,-56,28.3,-43.6Z" transform="translate(100 100)"/>
+                </svg>
+            </div>
+            <div class="cs-content" id="fear-and-reactivity-training">
+                <h2>Fear & Reactivity Training</h2>
+                <p>Our Fear and Reactivity Training program is tailored to address the specific needs of dogs struggling with fearful or reactive behaviors. Whether your dog exhibits anxiety, barking, lunging, or other reactive responses towards other dogs, people, or certain triggers, our compassionate approach aims to help them overcome these challenges. Through personalized sessions and positive reinforcement techniques, we work closely with you and your furry friend to build confidence, promote calm behavior, and ultimately foster a happier and more relaxed companion. With our guidance and support, you'll gain valuable insights into your dog's behavior and learn effective strategies to navigate challenging situations, strengthening the bond between you and your beloved pet.</p>
+
+                <p>Our Fear and Reactivity Training isn't just about addressing immediate behavior issues—it's about empowering both you and your dog for long-term success. By providing practical tools and emotional support, we help you navigate the journey towards a more harmonious relationship with your furry companion. Together, we'll embark on a transformative journey that not only improves your dog's behavior but also deepens the bond of trust and understanding between you, ensuring a lifetime of companionship filled with joy and confidence.</p>
+                <a class="cs-button-solid" href="/contact">Schedule Training!</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="content-page-1532">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <!--Flower-->
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/clever_companions_basic_obedience.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/clever_companions_basic_obedience.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/clever_companions_basic_obedience.jpg" alt="Basic Obedience" width="522" height="540">
+                </picture>
+                <svg class="cs-floater" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="currentColor" d="M28.3,-43.6C39,-31.2,51.6,-26,55.2,-17.4C58.7,-8.7,53.4,3.4,51.7,19.4C50.1,35.3,52.2,55.1,44.2,65.5C36.2,75.9,18.1,77,2.4,73.6C-13.2,70.2,-26.5,62.4,-40.5,54C-54.5,45.5,-69.4,36.5,-75.8,23.1C-82.2,9.8,-80,-7.7,-73.6,-22.7C-67.1,-37.7,-56.3,-50.2,-43.3,-61.8C-30.3,-73.5,-15.2,-84.4,-3.2,-80C8.8,-75.7,17.6,-56,28.3,-43.6Z" transform="translate(100 100)"/>
+                </svg>
+            </div>
+            <div class="cs-content" id="basic-obedience">
+                <h2>Basic Obedience</h2>
+                <p>
+                    At Clever Companions, our Basic Obedience Training program lays the foundation for a well-behaved and harmonious relationship between you and your furry friend. From mastering essential skills like sit, stay, and come, to refining leash manners and polite greetings, our personalized one-on-one sessions are designed to cater to your dog's individual needs. With a focus on positive reinforcement and effective communication techniques, we empower you to strengthen the bond with your canine companion while instilling confidence and obedience.
+                </p>
+                <p>Our Basic Obedience Training isn't just about teaching commands—it's about building a solid foundation of trust and understanding. Through patience, consistency, and encouragement, we guide you and your dog through the training process, creating a positive and rewarding experience for both of you. Whether you're starting with a new puppy or seeking to improve your adult dog's manners, our program equips you with the tools and knowledge to nurture a well-mannered and obedient companion for life.</p>
+                <a class="cs-button-solid" href="/contact">Sign Up Now!</a>
+            </div>
+        </div>
+        <div class="cs-bubbles" aria-hidden="true"></div>
+    </section>
+
+    <section id="content-page-1535">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <!--Flower-->
+
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/clever_companions_adventure_walks.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/clever_companions_adventure_walks.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/clever_companions_adventure_walks.jpg" alt="Adventure Walks" width="522" height="540">
+                </picture>
+                <svg class="cs-floater" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="currentColor" d="M28.3,-43.6C39,-31.2,51.6,-26,55.2,-17.4C58.7,-8.7,53.4,3.4,51.7,19.4C50.1,35.3,52.2,55.1,44.2,65.5C36.2,75.9,18.1,77,2.4,73.6C-13.2,70.2,-26.5,62.4,-40.5,54C-54.5,45.5,-69.4,36.5,-75.8,23.1C-82.2,9.8,-80,-7.7,-73.6,-22.7C-67.1,-37.7,-56.3,-50.2,-43.3,-61.8C-30.3,-73.5,-15.2,-84.4,-3.2,-80C8.8,-75.7,17.6,-56,28.3,-43.6Z" transform="translate(100 100)"/>
+                </svg>
+            </div>
+            <div class="cs-content" id="adventure-walks">
+                <h2>Adventure Walks</h2>
+                <p>
+                    We believe that every dog deserves an enriching and fulfilling experience, which is why we offer Adventure Walks that go beyond the traditional stroll around the block. Our guided excursions are tailored to provide your furry friend with opportunities for mental stimulation, physical exercise, and exploration in new and exciting environments. Whether it's a hike in the woods, a leisurely walk around town, or a romp through a local park, our Adventure Walks are designed to cater to your dog's individual needs and preferences.</p>
+
+                <p>During our Adventure Walks, your dog will not only enjoy the sights, sounds, and smells of their surroundings but also benefit from positive reinforcement training techniques incorporated into the experience. Led by our experienced trainers, these outings provide opportunities for your dog to practice good behavior in real-world settings while strengthening their bond with you. With Clever Companions, you can rest assured that your furry friend will embark on an adventure filled with joy, enrichment, and unforgettable experiences.</p>
+                <a class="cs-button-solid" href="/contact">Setup a Session!</a>
+            </div>
+        </div>
+        <div class="cs-bubbles" aria-hidden="true"></div>
+    </section>
+
+{% endblock %}
