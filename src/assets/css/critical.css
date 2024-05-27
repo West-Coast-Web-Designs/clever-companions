@@ -15,7 +15,7 @@
     z-index: 1;
   }
   #hero-1469:before {
-    content: '';
+    content: "";
     width: 100%;
     height: 100%;
     background: #fff3ec;
@@ -99,7 +99,7 @@
     transition: color 0.3s;
   }
   #hero-1469 .cs-button-solid:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     height: 100%;
@@ -150,11 +150,7 @@
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
   #hero-1469:before {
-    background: linear-gradient(
-      89deg,
-      rgba(255, 243, 236, 0.9) 44.46%,
-      rgba(255, 243, 236, 0) 78.47%
-    );
+    background: linear-gradient(89deg, rgba(255, 243, 236, 0.9) 44.46%, rgba(255, 243, 236, 0) 78.47%);
     opacity: 1;
   }
   #hero-1469 .cs-container {
@@ -212,7 +208,7 @@
 /* Large Desktop Parallax Effect - 1600px */
 @media only screen and (min-width: 100rem) {
   #hero-1469 .cs-background {
-    background: url('/assets/images/clever_companions_header.webp');
+    background: url("/assets/images/clever_companions_header.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
