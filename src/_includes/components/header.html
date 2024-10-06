@@ -28,8 +28,7 @@
       <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
       <div class="cs-ul-wrapper">
         <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
-          {% set navPages = collections.all | eleventyNavigation %} {% for entry
-          in navPages %}
+          {% set navPages = collections.all | eleventyNavigation %} {% for entry in navPages %}
           <li class="cs-li">
             <a
               href="{{ entry.url }}"
@@ -55,20 +54,6 @@
         />
         {{client.phoneFormatted}}
       </a>
-      <!-- <div class="cs-social">
-        <a href="" class="cs-social-link">
-          <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/facebook-1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
-        </a>
-        <a href="" class="cs-social-link">
-          <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/twitter-1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
-        </a>
-        <a href="" class="cs-social-link">
-          <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/instagram1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
-        </a>
-        <a href="" class="cs-social-link">
-          <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/youtube1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
-        </a>
-      </div> -->
     </div>
   </div>
 </header>
